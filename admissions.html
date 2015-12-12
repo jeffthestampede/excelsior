@@ -106,7 +106,7 @@
 
     <!--=========== BEGIN COURSE BANNER SECTION ================-->
     <section id="imgBanner">
-      <h2>Admissions</h2>
+      <h2 id="admissions">Admissions</h2>
     </section>
     <!--=========== END COURSE BANNER SECTION ================-->
 
@@ -122,7 +122,7 @@
                 <!-- start single blog archive -->
                 <div class="col-lg-12 col-12 col-sm-12">
                   <div class="single_blog_archive wow fadeInUp">
-                    <h2 class="blog_title"><a href="events-single.html">Admissions Policy</a></h2>
+                    <h2 class="blog_title">Admissions Policy</h2>
                     <p class="blog_summary">Excelsior School admits students of any color, racial or ethnic origin to all rights, privileges, programs and activities accorded to students at the school. Excelsior does not discriminate on the basis of color, race, ethnic origin or religious affiliation with regard to the administration of its education policies, admissions policies and scholarship and aid programs.</p>
                     <p class="blog_summary">Entrance requirements are based on intellectual ability, personal character, and a demonstrated willingness to learn. The specific criteria for admission to Excelsior School include:</p>
                     <ul class="blog_summary">
@@ -132,7 +132,7 @@
                       <li><span class="fa fa-angle-double-right"> Completed application form</span></li>
                     </ul>
                     <p class="blog_summary">Excelsior School is first and foremost a community with an unparalleled academic program that seeks to educate future leaders. The Admission Committee selects students who possess character, scholarship, an interest in belonging to a vigorous and diverse community, and a willingness to share extracurricular talents or abilities.</p>
-                    <p class="blog_summary">Of course, the best predictor of academic success is past performance combined with a clear understanding of academic expectations. Through teacher and personal recommendations, a current transcript, a personal interview, and student essays, the Admissions Committee seeks to assess a student’s capacity to thrive in the Excelsior environment. We also use standardized testing to support our assessment of student academic ability and potential. Students with special talents should not hesitate to submit portfolios or videos of independent work or activities.</p>
+                    <p class="blog_summary" id="checklist">Of course, the best predictor of academic success is past performance combined with a clear understanding of academic expectations. Through teacher and personal recommendations, a current transcript, a personal interview, and student essays, the Admissions Committee seeks to assess a student’s capacity to thrive in the Excelsior environment. We also use standardized testing to support our assessment of student academic ability and potential. Students with special talents should not hesitate to submit portfolios or videos of independent work or activities.</p>
                   </div>
                 </div>
                 <!-- End single blog archive -->
@@ -165,7 +165,7 @@
                 <!-- start single blog archive -->
                 <div class="col-lg-12 col-12 col-sm-12">
                   <div class="single_blog_archive wow fadeInUp">
-                    <h2 class="blog_title"><a href="events-single.html">Transfer Students</a></h2>
+                    <h2 class="blog_title" id="transfer">Transfer Students</h2>
                     <p class="blog_summary">Transfer students who plan to graduate from Excelsior School will be held responsible for school graduation requirements. Course work completed outside the school will be evaluated to determine whether or not credit will be awarded. To receive a diploma from Excelsior School, a transfer student must meet the graduation requirements and have earned fifty credits Excelsior School. The transfer student must also be enrolled in the school granting the diploma in the semester of graduation. Honors courses taken in another school must correlate with Excelsior School honors courses in order for weighted credit to be awarded.</p>
                     <p class="blog_summary">GRADE CLASSIFICATIONS</p>
                     <p class="blog_summary">New students entering Excelsior School from another school will be classified based on the number of credits they have earned from the previous school.</p>
@@ -182,7 +182,7 @@
                           <td>More than 150</td>
                         </tr>
                         <tr>
-                          <td>Junior</td>
+                          <td id="tuition">Junior</td>
                           <td>More than 100 less than 150</td>
                         </tr>
                         <tr>
@@ -201,7 +201,7 @@
                 <!-- start single blog archive -->
                 <div class="col-lg-12 col-12 col-sm-12">
                   <div class="single_blog_archive wow fadeInUp">
-                    <h2 class="blog_title"><a href="events-single.html">Tuition & Fees</a></h2>
+                    <h2 class="blog_title">Tuition & Fees</h2>
                     <p class="blog_summary">Excelsior School is a small, independent boarding high school that offers a rigorous, college-preparatory education. School depends upon prompt payment of tuition, rather than government subsidies.  Excelsior committed to keeping our school as affordable as possible, while at the same time providing a quality education.</p>
                     <h4 class="blog_summary">2015-2016 Academic Year</h4>
                     <h5 class="blog_summary">Application Fee (New Students Only)</h5>
@@ -353,17 +353,17 @@
               <div class="single_sidebar">
                 <h2>Admissions <span class="fa fa-angle-double-right"></span></h2>
                 <ul>
-                  <li><a href="#">Admissions Policy</a></li>
-                  <li><a href="#">Checklist</a></li>
+                  <li><a href="#admissions">Admissions Policy</a></li>
+                  <li><a href="#checklist">Checklist</a></li>
                   <li><a href="forms/ApplicationForm.pdf">Application Form</a></li>
                   <li><a href="forms/TranscriptReleaseForm.pdf">Transcript Release</a></li>
                   <li><a href="forms/TeacherRecommendation.pdf">Teacher Reference</a></li>
                   <li><a href="forms/PersonalReference.pdf">Personal Reference</a></li>
-                  <li><a href="#">Transfer Students</a></li>
+                  <li><a href="#transfer">Transfer Students</a></li>
                   <li><a href="forms/InternationalApplicationForm.pdf">International Student App</a></li>
                   <li><a href="forms/DormitoryApplication.pdf">Dorm Applcation Form</a></li>
-                  <li><a href="#">Tution & Fees</a></li>
-                  <li><a href="#">Request for Info</a></li>
+                  <li><a href="#tuition">Tuition & Fees</a></li>
+                  <li><a href="#info">Request for Info</a></li>
                 </ul>
               </div>
               <!-- End single sidebar -->
@@ -449,9 +449,14 @@
     <script src='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/js/jquery.circliful.min.js'></script>
     <!-- Gallery slider -->
     <script type="text/javascript" language="javascript" src="js/jquery.tosrus.min.all.js"></script>
-
+    <!-- Scroll to -->
+    <script type="text/javascript" language="javascript" src="js/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.localScroll.min.js"></script>
     <!-- Custom js-->
     <script src="js/custom.js"></script>
+    <script type="text/javascript">
+      $.localScroll();
+    </script>
   <!--===============================================
     Template Design By WpFreeware Team.
     Author URI : http://www.wpfreeware.com/
