@@ -93,13 +93,13 @@
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="admissions.html#admissions">Admissions Policy</a></li>
                     <li><a href="admissions.html#checklist">Checklist</a></li>
-                    <li><a href="forms/ApplicationForm.pdf">Application Form</a></li>
-                    <li><a href="forms/TranscriptReleaseForm.pdf">Transcript Release</a></li>
-                    <li><a href="forms/TeacherRecommendation.pdf">Teacher Reference</a></li>
-                    <li><a href="forms/PersonalReference.pdf">Personal Reference</a></li>
+                    <li><a href="applicationforms/ApplicationForm.pdf">Application Form</a></li>
+                    <li><a href="applicationforms/TranscriptReleaseForm.pdf">Transcript Release</a></li>
+                    <li><a href="applicationforms/TeacherRecommendation.pdf">Teacher Reference</a></li>
+                    <li><a href="applicationforms/PersonalReference.pdf">Personal Reference</a></li>
                     <li><a href="admissions.html#transfer">Transfer Students</a></li>
-                    <li><a href="forms/InternationalApplicationForm.pdf">International Student App</a></li>
-                    <li><a href="forms/DormitoryApplication.pdf">Dorm Applcation Form</a></li>
+                    <li><a href="applicationforms/InternationalApplicationForm.pdf">International Student App</a></li>
+                    <li><a href="applicationforms/DormitoryApplication.pdf">Dorm Applcation Form</a></li>
                     <li><a href="admissions.html#tuition">Tuition & Fees</a></li>
                     <li><a href="admissions.html#info">Request for Info</a></li>
                   </ul>
@@ -145,8 +145,8 @@
        <div class="row">
          <div class="col-lg-8 col-md-8 col-sm-8">
            <div class="contact_form wow fadeInLeft">
-              <form class="submitphoto_form" action="http://excelsiorschool.com/formtools/process.php" method="post">
-                <input type="hidden" name="form_tools_form_id" value="7" />
+              <form class="submitphoto_form" action="http://excelsiorschool.com/forms/process.php" method="post">
+                <input type="hidden" name="form_tools_form_id" value="2" />
                 <input type="text" name="first_name" class="wp-form-control wpcf7-text" placeholder="First name">
                 <input type="text" name="last_name" class="wp-form-control wpcf7-text" placeholder="Last name">
                 <input type="text" name="dob" class="wp-form-control wpcf7-text" placeholder="Date of Birth">
@@ -159,8 +159,9 @@
                 <input type="text" name="country" class="wp-form-control wpcf7-text" placeholder="Country">
                 <input type="mail" name="email" class="wp-form-control wpcf7-email" placeholder="Email">
                 <input type="text" name="phone" class="wp-form-control wpcf7-text" placeholder="Telephone #">
-                <input type="text" name="school"class="wp-form-control wpcf7-text" placeholder="Current School">
-                <textarea class="wp-form-control wpcf7-textarea" cols="30" rows="10" placeholder="What else would you like to tell us"></textarea>
+                <input type="text" name="school" class="wp-form-control wpcf7-text" placeholder="Current School">
+                <input type="text" name="citizen" class="wp-form-control wpcf7-text" placeholder="Country of Citizenship">
+                <textarea class="wp-form-control wpcf7-textarea" cols="30" rows="10" name="message"class="wp-form-control wpcf7-text" placeholder="What else would you like to tell us"></textarea>
                 <input type="submit" value="Submit" class="wpcf7-submit">
               </form>
            </div>
