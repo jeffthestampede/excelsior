@@ -13,6 +13,8 @@
       'features' => 14,
       'modes' => 3,
       'default' => true,
+      'class' => 'cachestore_file',
+      'lock' => 'cachelock_file_default',
     ),
     'default_session' => 
     array (
@@ -24,6 +26,8 @@
       'features' => 14,
       'modes' => 2,
       'default' => true,
+      'class' => 'cachestore_session',
+      'lock' => 'cachelock_file_default',
     ),
     'default_request' => 
     array (
@@ -35,6 +39,8 @@
       'features' => 14,
       'modes' => 4,
       'default' => true,
+      'class' => 'cachestore_static',
+      'lock' => 'cachelock_file_default',
     ),
   ),
   'modemappings' => 
@@ -333,6 +339,68 @@
       'staticaccelerationsize' => 5,
       'component' => 'core',
       'area' => 'plugin_functions',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'availability_grade/scores' => 
+    array (
+      'mode' => 1,
+      'staticacceleration' => true,
+      'staticaccelerationsize' => 2,
+      'ttl' => 3600,
+      'component' => 'availability_grade',
+      'area' => 'scores',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'availability_grade/items' => 
+    array (
+      'mode' => 1,
+      'staticacceleration' => true,
+      'staticaccelerationsize' => 2,
+      'ttl' => 3600,
+      'component' => 'availability_grade',
+      'area' => 'items',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'mod_glossary/concepts' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => false,
+      'staticacceleration' => true,
+      'staticaccelerationsize' => 30,
+      'component' => 'mod_glossary',
+      'area' => 'concepts',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'repository_skydrive/foldername' => 
+    array (
+      'mode' => 2,
+      'component' => 'repository_skydrive',
+      'area' => 'foldername',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'tool_monitor/eventsubscriptions' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'staticaccelerationsize' => 10,
+      'component' => 'tool_monitor',
+      'area' => 'eventsubscriptions',
+      'selectedsharingoption' => 2,
+      'userinputsharingkey' => '',
+    ),
+    'tool_uploadcourse/helper' => 
+    array (
+      'mode' => 4,
+      'component' => 'tool_uploadcourse',
+      'area' => 'helper',
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),

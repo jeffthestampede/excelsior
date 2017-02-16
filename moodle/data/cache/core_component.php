@@ -468,6 +468,7 @@ $cache = array (
       'bootstrapbase' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/bootstrapbase',
       'canvas' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/canvas',
       'clean' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/clean',
+      'essential' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential',
       'more' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/more',
     ),
     'assignsubmission' => 
@@ -1710,6 +1711,29 @@ $cache = array (
     'scormreport_objectives_report' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/mod/scorm/report/objectives/classes/report.php',
     'theme_clean\\core_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/clean/classes/core_renderer.php',
     'theme_clean_core_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/clean/classes/core_renderer.php',
+    'theme_essential\\core_course_management_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/core_course_management_renderer.php',
+    'theme_essential\\core_course_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/core_course_renderer.php',
+    'theme_essential\\format_columns_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_columns_renderer.php',
+    'theme_essential\\format_grid_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_grid_renderer.php',
+    'theme_essential\\format_noticebd_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_noticebd_renderer.php',
+    'theme_essential\\format_renderer_toolbox' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_renderer_toolbox.php',
+    'theme_essential\\format_topcoll_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_topcoll_renderer.php',
+    'theme_essential\\format_topics_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_topics_renderer.php',
+    'theme_essential\\format_weeks_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_weeks_renderer.php',
+    'theme_essential\\output\\core_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/output/core_renderer.php',
+    'theme_essential\\output\\core_renderer_maintenance' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/output/core_renderer_maintenance.php',
+    'theme_essential\\output\\core_renderer_toolbox' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/output/core_renderer_toolbox.php',
+    'theme_essential\\toolbox' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/toolbox.php',
+    'theme_essential_core_course_management_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/core_course_management_renderer.php',
+    'theme_essential_core_course_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/core_course_renderer.php',
+    'theme_essential_format_columns_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_columns_renderer.php',
+    'theme_essential_format_grid_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_grid_renderer.php',
+    'theme_essential_format_noticebd_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_noticebd_renderer.php',
+    'theme_essential_format_renderer_toolbox' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_renderer_toolbox.php',
+    'theme_essential_format_topcoll_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_topcoll_renderer.php',
+    'theme_essential_format_topics_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_topics_renderer.php',
+    'theme_essential_format_weeks_renderer' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/format_weeks_renderer.php',
+    'theme_essential_toolbox' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/classes/toolbox.php',
     'tinymce_spellchecker\\EnchantSpell' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/lib/editor/tinymce/plugins/spellchecker/classes/EnchantSpell.php',
     'tinymce_spellchecker\\GoogleSpell' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/lib/editor/tinymce/plugins/spellchecker/classes/GoogleSpell.php',
     'tinymce_spellchecker\\PSpell' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/lib/editor/tinymce/plugins/spellchecker/classes/PSpell.php',
@@ -2040,6 +2064,7 @@ $cache = array (
       'theme' => 
       array (
         'clean' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/clean/lib.php',
+        'essential' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/lib.php',
         'more' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/more/lib.php',
       ),
       'assignsubmission' => 
@@ -2320,6 +2345,7 @@ $cache = array (
       'theme' => 
       array (
         'clean' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/clean/settings.php',
+        'essential' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/essential/settings.php',
         'more' => '/var/www/vhosts/excelsiorschool.com/httpdocs/moodle/theme/more/settings.php',
       ),
       'assignsubmission' => 
