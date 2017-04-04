@@ -5,7 +5,7 @@
     ================================================== -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title>Contact Us</title>
+     <title>Request for Info</title>
 
     <!-- Mobile Specific Metas
     ================================================== -->
@@ -56,7 +56,7 @@
     <a class="scrollToTop" href="#"></a>
     <!-- END SCROLL TOP BUTTON -->
 
-  <!--=========== BEGIN HEADER SECTION ================-->
+    <!--=========== BEGIN HEADER SECTION ================-->
     <header id="header">
       <!-- BEGIN MENU -->
       <div class="menu_area">
@@ -115,9 +115,9 @@
                     <li><a href="#">Link Three</a></li>
                   </ul>
                 </li> -->
-                <li class="active"><a href="kcontact.html">연락방법</a></li>
+                <li><a href="kcontact.html">연락방법</a></li>
                 <li><a href="contact.html">English</a></li>
-                <li><a href="ccontact.html">中文</a></li>
+                <li><a href="contact.html">中文</a></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div>
@@ -125,32 +125,50 @@
       </div>    </header>
     <!--=========== END HEADER SECTION ================-->
 
-
     <!--=========== BEGIN COURSE BANNER SECTION ================-->
     <section id="imgBanner">
-      <h2>연락방법</h2>
+      <h2>Request for Information</h2>
     </section>
     <!--=========== END COURSE BANNER SECTION ================-->
 
-    <!--=========== BEGIN CONTACT SECTION ================-->
-    <section id="contact">
+    <!--=========== BEGIN FORM SECTION ================-->
+     <section id="contact">
       <div class="container">
        <div class="row">
           <div class="col-lg-12 col-md-12">
             <div class="title_area">
-              <h2 class="title_two">Excelsior School</h2>
-              <p>1539 E Howard St, Pasadena, CA 91104</p>
-              <p>Phone: 626-398-2388</p>
-              <div><a class="slider_btn" href="kinfo.html">더 많은 정보를 원하신다면 여기를 클릭해 주세요</a></div>
               <span></span>
-              <p>필요하신 정보를 찾으실 수 없다면 언제든지 전화 혹은 이메일로 연락 부탁바랍니다.</p>
+              <p>최대한 신속히 연락 드리겠습니다.</p>
             </div>
           </div>
        </div>
        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4">
+         <div class="col-lg-8 col-md-8 col-sm-8">
+           <div class="contact_form wow fadeInLeft">
+              <form class="submitphoto_form" action="http://excelsiorschool.com/forms/process.php" method="post">
+                <input type="hidden" name="form_tools_form_id" value="2" />
+                <input type="text" name="first_name" class="wp-form-control wpcf7-text" placeholder="이름">
+                <input type="text" name="last_name" class="wp-form-control wpcf7-text" placeholder="성">
+                <input type="text" name="dob" class="wp-form-control wpcf7-text" placeholder="생일">
+                <input type="text" name="grade" class="wp-form-control wpcf7-text" placeholder="학년">
+                <input type="text" name="address1" class="wp-form-control wpcf7-text" placeholder="주소1">
+                <input type="text" name="address2" class="wp-form-control wpcf7-text" placeholder="주소2">
+                <input type="text" name="city" class="wp-form-control wpcf7-text" placeholder="도시">
+                <input type="text" name="state" class="wp-form-control wpcf7-text" placeholder="주">
+                <input type="text" name="zip" class="wp-form-control wpcf7-text" placeholder="우편번호">
+                <input type="text" name="country" class="wp-form-control wpcf7-text" placeholder="국가">
+                <input type="mail" name="email" class="wp-form-control wpcf7-email" placeholder="이메일">
+                <input type="text" name="phone" class="wp-form-control wpcf7-text" placeholder="이메일">
+                <input type="text" name="school" class="wp-form-control wpcf7-text" placeholder="휴대전화">
+                <input type="text" name="citizen" class="wp-form-control wpcf7-text" placeholder="현재 재학 중인 학교">
+                <textarea class="wp-form-control wpcf7-textarea" cols="30" rows="10" name="message"class="wp-form-control wpcf7-text" placeholder="질문을 적어주세요."></textarea>
+                <input type="submit" value="제출" class="wpcf7-submit">
+              </form>
+           </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-4">
            <div class="contact_address wow fadeInRight">
-             <h3>행정실</h3>
+             <h3>Admission Office</h3>
              <div class="address_group">
                <p>Phone: 626-398-2388, 626-576-8868(Chinese)</p>
                <p>Fax: 626-398-2454</p>
@@ -158,39 +176,13 @@
              </div>
            </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
-           <div class="contact_address wow fadeInRight">
-             <h3>학업 프로그램 담당자</h3>
-             <div class="address_group">
-               <p>Phone: 626-398-2388</p>
-               <p>Fax: 626-398-2454</p>
-               <p>Email:principal@excelsiorschool.com </p>
-             </div>
-           </div>
-          </div>
-         <div class="col-lg-4 col-md-4 col-sm-4">
-           <div class="contact_address wow fadeInRight">
-             <h3>해외 유학생 담당자</h3>
-             <div class="address_group">
-               <p>Phone: 626-398-2388</p>
-               <p>Fax: 626-398-2454</p>
-               <p>Email:katherinekuo@excelsiorschool.com </p>
-             </div>
-           </div>
-         </div>
        </div>
       </div>
     </section>
-    <!--=========== END CONTACT SECTION ================-->
-
-    <!--=========== BEGIN GOOGLE MAP SECTION ================-->
-    <section id="googleMap">
-      <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Excelsior+School+1539+E+Howard+St+Pasadena,+CA+91104&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
-    </section>
-    <!--=========== END GOOGLE MAP SECTION ================-->
+    <!--=========== END FORM SECTION ================-->
 
     <!--=========== BEGIN FOOTER SECTION ================-->
-   <footer id="footer">
+    <footer id="footer">
       <!-- Start footer top area -->
       <div class="footer_top">
         <div class="container">
