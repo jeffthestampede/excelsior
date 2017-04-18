@@ -8,82 +8,132 @@
 
 <url>
   <loc>http://excelsiorschool.com/</loc>
-  <lastmod>2016-06-21T02:53:23+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/index.html</loc>
-  <lastmod>2016-06-21T02:53:23+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/aboutschool.html</loc>
-  <lastmod>2016-09-05T09:32:23+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/academics.html</loc>
-  <lastmod>2016-09-05T07:28:08+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/admissions.html</loc>
-  <lastmod>2016-09-05T07:28:07+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/applicationforms/ApplicationForm.pdf</loc>
-  <lastmod>2016-09-05T07:28:10+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/applicationforms/TranscriptReleaseForm.pdf</loc>
-  <lastmod>2016-09-05T07:28:14+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/applicationforms/TeacherRecommendation.pdf</loc>
-  <lastmod>2016-09-05T07:28:18+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/applicationforms/PersonalReference.pdf</loc>
-  <lastmod>2016-09-05T07:28:19+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/applicationforms/InternationalApplicationForm.pdf</loc>
-  <lastmod>2016-09-05T07:28:13+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/applicationforms/DormitoryApplication.pdf</loc>
-  <lastmod>2016-09-05T07:28:16+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/studentlife.html</loc>
-  <lastmod>2016-06-21T02:50:28+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/contact.html</loc>
-  <lastmod>2016-09-05T07:28:22+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/cindex.html</loc>
-  <lastmod>2016-09-05T09:32:22+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://excelsiorschool.com/kindex.html</loc>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/caboutschool.html</loc>
-  <lastmod>2016-09-05T06:57:17+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://excelsiorschool.com/kaboutschool.html</loc>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/applicationforms/Calendar2016-2017.pdf</loc>
-  <lastmod>2016-09-05T07:28:17+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://excelsiorschool.com/cstudentlife.html</loc>
-  <lastmod>2016-09-05T09:54:28+00:00</lastmod>
+  <loc>http://excelsiorschool.com/kacademics.html</loc>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/cadmissions.html</loc>
-  <lastmod>2016-09-05T07:28:24+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/info.html</loc>
-  <lastmod>2016-07-02T02:34:16+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://excelsiorschool.com/cstudentlife.html</loc>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://excelsiorschool.com/kstudentlife.html</loc>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://excelsiorschool.com/ccontact.html</loc>
-  <lastmod>2016-09-05T06:53:25+00:00</lastmod>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://excelsiorschool.com/kcontact.html</loc>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://excelsiorschool.com/kadmissions.html</loc>
+  <lastmod>2017-03-28T01:17:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 </urlset>
