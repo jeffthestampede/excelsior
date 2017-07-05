@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2016-05-25 19:10:12
+<?php /* Smarty version 2.6.18, created on 2017-05-18 14:44:44
          compiled from footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'show_page_load_time', 'footer.tpl', 13, false),)), $this); ?>

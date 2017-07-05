@@ -89,6 +89,7 @@
                     <li><a href="cacademics.html#approvedcourses">加大/州大认可课程</a></li>
                     <li><a href="cacademics.html#gallery">大学录取表</a></li>
                     <li><a href="cacademics.html#collegecounseling">升学辅导计划</a></li>
+					<li><a href="applicationforms/TranscriptRequestForm.pdf">申请成绩单</a></li>
 				</ul>
                 <li class="dropdown"><a href="cadmissions.html">招生事项</a>
                   <ul class="dropdown-menu" role="menu">
@@ -103,6 +104,7 @@
                     <li><a href="applicationforms/DormitoryApplication.pdf">宿舍申請表</a></li>
                     <li><a href="cadmissions.html#tuition">学费和杂费</a></li>
                     <li><a href="cadmissions.html#info">询问资讯</a></li>
+					<li><a href="cadmissions.html#appfee">支付申请费</a></li>
                   </ul>
                 </li>
 				<!-- <li><a href="international.html">International Students</a></li> -->
@@ -1279,10 +1281,26 @@ style="border-collapse: collapse; border: 0px none" WIDTH="615"">
                   <li><a href="#imgBanner">教学方针</a></li>
                   <li><a href="#graduationreq">毕业要求</a></li>
                   <li><a href="#ucreq">加大入学要求</a></li>
-                  <li><a href="#csureq">加州州大入学要求</a></li>
+                  <li id="transcriptfee"><a href="#csureq">加州州大入学要求</a></li>
                   <li><a href="#approvedcourses">加大/州大(UC/CSU)认可课程</a></li>
                   <li><a href="#gallery">大学录取表</a></li>
 				  <li><a href="#collegecounseling">升学辅导计划</a></li>
+				  <li>
+					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="X2CMM8CYQBFNN">
+					<table>
+					<tr><td style="font-size: 14px; padding-left: 5px; font-weight: 600;"><input type="hidden" name="on0" value="Transcript Request">成绩单申请费</td></tr><tr><td><select name="os0">
+						<option value="Regular Service">普件 $20.00 USD</option>
+						<option value="Expedited Service">急件 $45.00 USD</option>
+						<option value="International Service">国际件 $75.00 USD</option>
+					</select> </td></tr>
+					</table>
+					<input type="hidden" name="currency_code" value="USD">
+					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
+				 </li>
                 </ul>
               </div>
               <!-- End single sidebar -->
