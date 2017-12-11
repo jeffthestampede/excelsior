@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2016-05-25 19:10:12
+<?php /* Smarty version 2.6.18, created on 2017-11-30 13:55:08
          compiled from /var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/messages.tpl */ ?>
 
 <?php if ($this->_tpl_vars['g_message']): ?>

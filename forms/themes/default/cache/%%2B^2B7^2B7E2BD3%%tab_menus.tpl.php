@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2016-05-27 15:15:12
+<?php /* Smarty version 2.6.18, created on 2017-11-30 14:05:56
          compiled from /var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/settings/tab_menus.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'upper', '/var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/settings/tab_menus.tpl', 1, false),array('modifier', 'count', '/var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/settings/tab_menus.tpl', 39, false),array('function', 'ft_include', '/var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/settings/tab_menus.tpl', 3, false),array('function', 'template_hook', '/var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/settings/tab_menus.tpl', 9, false),)), $this); ?>

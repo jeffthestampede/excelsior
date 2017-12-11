@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2016-05-27 15:14:48
+<?php /* Smarty version 2.6.18, created on 2017-11-30 14:05:12
          compiled from /var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/settings/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'ft_include', '/var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/settings/index.tpl', 1, false),)), $this); ?>

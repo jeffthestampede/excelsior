@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2016-05-27 15:14:42
+<?php /* Smarty version 2.6.18, created on 2017-12-06 20:23:03
          compiled from messages.tpl */ ?>
 
 <?php if ($this->_tpl_vars['g_message']): ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2016-05-25 19:11:18
+<?php /* Smarty version 2.6.18, created on 2017-12-01 13:49:52
          compiled from /var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/forms/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'ft_include', '/var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/forms/index.tpl', 1, false),array('function', 'template_hook', '/var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/forms/index.tpl', 78, false),array('function', 'clients_dropdown', '/var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/forms/index.tpl', 198, false),array('modifier', 'count', '/var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/forms/index.tpl', 23, false),array('modifier', 'escape', '/var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/forms/index.tpl', 44, false),array('modifier', 'upper', '/var/www/vhosts/excelsiorschool.com/httpdocs/forms/themes/default/admin/forms/index.tpl', 115, false),)), $this); ?>
